@@ -10,7 +10,7 @@ class Routes extends Component {
     return (
       <Switch>
         {/* Routes placed here are available to all visitors */}
-        <Route component={UserHome} />
+        <Route exact path="/" component={UserHome} />
       </Switch>
     )
   }

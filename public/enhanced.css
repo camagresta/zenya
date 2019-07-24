@@ -1,0 +1,28 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg1,
+.bgimg2,
+.bgimg3 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.bgimg1 {
+  background-image: url('./images/home1.png');
+  min-height: 100%;
+}
+
+.bgimg2 {
+  background-image: url('img_parallax2.jpg');
+  min-height: 400px;
+}
+
+.bgimg3 {
+  background-image: url('img_parallax3.jpg');
+  min-height: 400px;
+}
