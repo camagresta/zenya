@@ -10,18 +10,16 @@ html {
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 .bgimg1 {
   background-image: url('./images/home1.png');
-  padding-bottom: 65.89%;
-  height: 0;
+  min-height: 100%;
 }
 
 .bgimg2 {
-  background-image: url('./images/bgimg2.png');
-  padding-bottom: 70%;
-  height: 0;
+  background-image: url('img_parallax2.jpg');
+  min-height: 400px;
 }
 
 .bgimg3 {
