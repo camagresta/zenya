@@ -2,6 +2,44 @@ body,
 html {
   height: 100%;
   margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: rgb(193, 214, 239);
+  font-size: 14px;
+  opacity: 75%;
+  padding-top: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  opacity: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.mainNav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-direction: space-around;
+}
+.navLinks {
+  text-decoration: none;
+  color: #4f6d8c;
+  margin: 10px;
+}
+
+.mainNav li {
+  text-align: center;
+}
+
+.navLogo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 35px;
+  height: 35px;
 }
 
 .bgimg1,

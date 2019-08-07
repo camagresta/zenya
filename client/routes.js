@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {withRouter, Route, Switch} from 'react-router-dom'
-import {UserHome} from './components'
+import {UserHome, Navbar} from './components'
 
 /**
  * COMPONENT
@@ -8,10 +8,13 @@ import {UserHome} from './components'
 class Routes extends Component {
   render() {
     return (
-      <Switch>
-        {/* Routes placed here are available to all visitors */}
-        <Route exact path="/" component={UserHome} />
-      </Switch>
+      <div>
+        <Navbar />
+        <Switch>
+          {/* Routes placed here are available to all visitors */}
+          <Route exact path="/" component={UserHome} />
+        </Switch>
+      </div>
     )
   }
 }
