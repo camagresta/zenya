@@ -95,13 +95,17 @@ nav {
 }
 
 .bgimg3 {
-  background-image: url('./images/quotesBg.png');
-  height: 125px;
-  width: 100%;
+}
+.quotesContain {
   position: relative;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .ingrMain {
   background-color: #eef4fa;

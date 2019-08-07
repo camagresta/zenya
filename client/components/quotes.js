@@ -5,8 +5,14 @@ import React from 'react'
  */
 export const Quotes = props => {
   return (
-    <div className="section home">
-      <div className="section bgimg3"></div>
+    <div className="quotesContain">
+      <img
+        src="/public/images/quotesBg"
+        className="bgImg3"
+        width="100%"
+        height="150px"
+      />
+      <div className="centered">Centered</div>
     </div>
   )
 }
