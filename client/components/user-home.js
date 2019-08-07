@@ -8,7 +8,6 @@ export const UserHome = props => {
     <div className="section home">
       <div className="section bgimg1"></div>
       <div className="section bgimg2"></div>
-      <div className="section bgimg3"></div>
       <Ingredients />
     </div>
   )

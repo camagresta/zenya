@@ -3,9 +3,13 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #4f6d8c;
 }
-
+p {
+  margin: 0;
+  padding: 0;
+}
 nav {
   background-image: url('./images/nav.png');
   font-size: 14px;
@@ -30,12 +34,17 @@ nav {
   justify-content: center;
   align-items: center;
 }
-
+.sectionHeader {
+  text-align: center;
+}
+.dottedLine {
+  border-top: dotted;
+  height: 5px;
+  color: #c2d4e5;
+  margin: 0;
+}
 .menu {
   height: 80px;
-}
-
-.header {
 }
 
 .content {
@@ -80,7 +89,39 @@ nav {
 .bgimg2 {
   background-image: url('./images/bgimg2.png');
 }
+.ingrMain {
+  background-color: #eef4fa;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+}
+.ingrSection {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  align-items: center;
+  justify-content: space-between;
+}
 
-.bgimg3 {
-  background-image: url('img_parallax3.jpg');
+.ingrContent {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 8px;
+  color: #7d7d7d;
+}
+
+.ingrTextCont {
+  flex-grow: 1;
+}
+
+.ingrHeader {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+  font-size: 12px;
+}
+.textLeft {
+  text-align: right;
+}
+.reverse {
+  flex-direction: row-reverse;
 }
