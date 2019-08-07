@@ -10,6 +10,12 @@ p {
   margin: 0;
   padding: 0;
 }
+
+button {
+  color: #4f6d8c;
+  font-size: 10px;
+  text-align: center;
+}
 nav {
   background-image: url('./images/nav.png');
   font-size: 14px;
@@ -17,7 +23,6 @@ nav {
   padding-top: 3px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding-left: 10px;
-  opacity: 75%;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -75,8 +80,7 @@ nav {
 }
 
 .bgimg1,
-.bgimg2,
-.bgimg3 {
+.bgimg2 {
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
@@ -89,11 +93,23 @@ nav {
 .bgimg2 {
   background-image: url('./images/bgimg2.png');
 }
+
+.bgimg3 {
+  background-image: url('./images/quotesBg.png');
+  height: 125px;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
 .ingrMain {
   background-color: #eef4fa;
   display: flex;
   flex-direction: column;
-  padding: 35px;
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .ingrSection {
   display: flex;
@@ -101,6 +117,7 @@ nav {
   font-size: 14px;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 60px;
 }
 
 .ingrContent {
@@ -112,6 +129,7 @@ nav {
 
 .ingrTextCont {
   flex-grow: 1;
+  max-width: 50%;
 }
 
 .ingrHeader {
@@ -119,9 +137,17 @@ nav {
   margin-block-end: 5px;
   font-size: 12px;
 }
+
+.ingrButton {
+  text-align: center;
+}
 .textLeft {
   text-align: right;
 }
 .reverse {
   flex-direction: row-reverse;
+}
+
+#finalSection {
+  padding-bottom: 15px;
 }

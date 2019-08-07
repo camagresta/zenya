@@ -11,9 +11,10 @@ export const Ingredients = props => {
       <div className="ingrdContainer">
         <div className="ingrSection">
           <img
+            className="ingrImge"
             src="/images/fruit.png"
             alt="hemp extract"
-            height="150px"
+            height="100px"
             width="auto"
           />
           <div className="ingrTextCont">
@@ -30,9 +31,10 @@ export const Ingredients = props => {
         </div>
         <div className="ingrSection reverse">
           <img
+            className="ingrImge"
             src="/images/greenTea.png"
             alt="green tea"
-            height="150px"
+            height="100px"
             width="auto"
           />
           <div className="textLeft ingrTextCont">
@@ -47,9 +49,10 @@ export const Ingredients = props => {
         </div>
         <div className="ingrSection">
           <img
+            className="ingrImge"
             src="/images/leafExtract.png"
             alt="leaf extract"
-            height="150px"
+            height="100px"
             width="auto"
           />
           <div className="ingrTextCont">
@@ -66,9 +69,10 @@ export const Ingredients = props => {
         </div>
         <div className="ingrSection reverse">
           <img
+            className="ingrImge"
             src="/images/seeds.png"
             alt="griffonia seed extract"
-            height="150px"
+            height="100px"
             width="auto"
           />
           <div className="textLeft ingrTextCont">
@@ -84,11 +88,12 @@ export const Ingredients = props => {
             </p>
           </div>
         </div>
-        <div className="ingrSection">
+        <div className="ingrSection" id="finalSection">
           <img
+            className="ingrImge"
             src="/images/fruit.png"
             alt="fruit"
-            height="150px"
+            height="100px"
             width="auto"
           />
           <div className="ingrTextCont">
@@ -104,9 +109,11 @@ export const Ingredients = props => {
           </div>
         </div>
       </div>
-      <button type="button">
-        Have a look at our full list of ingredients by clicking here
-      </button>
+      <div className="ingrButton">
+        <button type="button">
+          Have a look at our full list of ingredients by clicking here
+        </button>
+      </div>
     </div>
   )
 }
