@@ -1,14 +1,15 @@
 import React from 'react'
-
+import {Ingredients} from './ingredients'
 /**
  * COMPONENT
  */
 export const UserHome = props => {
   return (
-    <div>
-      <div className="bgimg1"></div>
-      <div className="bgimg2"></div>
-      <div className="bgimg3"></div>
+    <div className="section home">
+      <div className="section bgimg1"></div>
+      <div className="section bgimg2"></div>
+      <div className="section bgimg3"></div>
+      <Ingredients />
     </div>
   )
 }

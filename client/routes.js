@@ -8,7 +8,7 @@ import {UserHome, Navbar} from './components'
 class Routes extends Component {
   render() {
     return (
-      <div>
+      <div className="page">
         <Navbar />
         <Switch>
           {/* Routes placed here are available to all visitors */}

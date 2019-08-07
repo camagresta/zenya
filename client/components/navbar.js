@@ -1,6 +1,6 @@
 import React from 'react'
 const Navbar = () => (
-  <nav className="nav">
+  <nav className="section nav menu">
     <img className="navLogo" src="./images/navLogo.png" />
 
     <ul className="mainNav">
