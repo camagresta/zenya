@@ -7,12 +7,15 @@ export const Quotes = props => {
   return (
     <div className="quotesContain">
       <img
-        src="/public/images/quotesBg"
-        className="bgImg3"
+        src="/images/quotesBg.png"
+        className="bgimg3"
         width="100%"
-        height="150px"
+        height="100px"
       />
-      <div className="centered">Centered</div>
+      <div className="centered">Quote goes here</div>
+      <div className="centerTop">
+        <img src="/images/healthline.png" width="85px" />
+      </div>
     </div>
   )
 }

@@ -107,6 +107,14 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.centerTop {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 .ingrMain {
   background-color: #eef4fa;
   display: flex;
