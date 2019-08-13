@@ -1,16 +1,19 @@
 import React from 'react'
 const Navbar = () => (
-  <nav className="section nav menu">
-    <img className="navLogo" src="./images/navLogo.png" />
+  <nav className="nav menu">
+    <div className="mainNav">
+      <img className="navLogo" src="./images/navLogo.png" />
 
-    <ul className="mainNav">
-      <li>
-        <a className="navLinks">About Us</a>
-      </li>
-      <li>
-        <a className="navLinks">Shop</a>
-      </li>
-    </ul>
+      <a className="navLinks">About Us</a>
+
+      <a className="navLinks">Our Ingredients</a>
+
+      <a className="navLinks">Learn About CBD</a>
+
+      <a className="navLinks">Contact</a>
+
+      <button className="navLinks">Shop</button>
+    </div>
   </nav>
 )
 

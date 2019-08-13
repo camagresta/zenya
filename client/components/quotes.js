@@ -19,5 +19,3 @@ export const Quotes = props => {
     </div>
   )
 }
-
-export default Quotes

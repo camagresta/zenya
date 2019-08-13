@@ -5,6 +5,7 @@ html {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   color: #4f6d8c;
+  font-size: 8px;
 }
 p {
   margin: 0;
@@ -23,9 +24,6 @@ nav {
   padding-top: 3px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding-left: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
 }
 .page .home {
   display: flex;
@@ -34,7 +32,6 @@ nav {
 
 .section {
   width: 100%;
-  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +46,7 @@ nav {
   margin: 0;
 }
 .menu {
-  height: 80px;
+  height: 60px;
 }
 
 .content {
@@ -57,15 +54,15 @@ nav {
 }
 
 .mainNav {
-  list-style-type: none;
   display: flex;
   flex-direction: row;
-  flex-direction: space-around;
+  justify-content: space-around;
+  align-items: center;
 }
 .navLinks {
   text-decoration: none;
   color: #4f6d8c;
-  margin: 10px;
+  font-size: 8px;
 }
 
 .mainNav li {
@@ -88,14 +85,14 @@ nav {
 }
 .bgimg1 {
   background-image: url('./images/home1.png');
+  height: 250px;
 }
 
 .bgimg2 {
   background-image: url('./images/bgimg2.png');
+  height: 350px;
 }
 
-.bgimg3 {
-}
 .quotesContain {
   position: relative;
   text-align: center;
@@ -119,9 +116,7 @@ nav {
   background-color: #eef4fa;
   display: flex;
   flex-direction: column;
-  padding: 0px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding: 15px;
 }
 .ingrSection {
   display: flex;
@@ -162,4 +157,19 @@ nav {
 
 #finalSection {
   padding-bottom: 15px;
+}
+
+.whyCBDmain {
+  display: flex;
+}
+
+.cbdHeader {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+  font-size: 10px;
+}
+
+.footer {
+  background-color: #4f6d8c;
+  height: 120px;
 }

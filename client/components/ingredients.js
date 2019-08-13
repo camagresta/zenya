@@ -7,7 +7,6 @@ export const Ingredients = props => {
   return (
     <div className="ingrMain">
       <h4 className="sectionHeader">Ingredients That Work</h4>
-      <hr className="dottedLine" />
       <div className="ingrdContainer">
         <div className="ingrSection">
           <img
