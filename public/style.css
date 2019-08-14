@@ -30,29 +30,71 @@ nav {
   flex-wrap: wrap;
 }
 
-.section {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/*Extra small devices */
+@media (max-width: 576px) {
+  .bgimg1 {
+    background-image: url('./images/home1.png');
+    height: 250px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 300px;
+  }
 }
-.sectionHeader {
-  text-align: center;
-}
-.dottedLine {
-  border-top: dotted;
-  height: 5px;
-  color: #c2d4e5;
-  margin: 0;
-}
-.menu {
-  height: 60px;
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .bgimg1 {
+    background-image: url('./images/home1.png');
+    height: 350px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 650px;
+  }
 }
 
-.content {
-  height: 600px;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .bgimg1 {
+    background-image: url('./images/home1.png');
+    height: 500px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 750px;
+  }
 }
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .bgimg1 {
+    background-image: url('./images/home1.png');
+    height: 600px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 900px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .bgimg1 {
+    background-image: url('./images/home1.png');
+    height: 750px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 1300px;
+  }
+}
+
+/* NAV BAR */
 .mainNav {
   display: flex;
   flex-direction: row;
@@ -75,15 +117,33 @@ nav {
   width: 35px;
   height: 35px;
 }
+.shopBtn {
+  background-color: #4f6d8c;
+  border: none;
+  text-align: center;
+  color: white;
+  padding: 4px 15px;
+  border-radius: 4px;
+}
+
+/*USER-HOME - SECTIONS ONE AND TWO */
+
+.sectionHeader {
+  text-align: center;
+}
+
+/* .content {
+  height: 600px;
+} */
 
 .bgimg1,
 .bgimg2 {
   position: relative;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
 }
-.bgimg1 {
+/* .bgimg1 {
   background-image: url('./images/home1.png');
   height: 250px;
 }
@@ -91,27 +151,8 @@ nav {
 .bgimg2 {
   background-image: url('./images/bgimg2.png');
   height: 350px;
-}
-
-.quotesContain {
-  position: relative;
-  text-align: center;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.centerTop {
-  position: absolute;
-  top: 8px;
-  left: 50%;
-  transform: translate(-50%);
-}
-
+} */
+/* INGREDIENTS SECTION */
 .ingrMain {
   background-color: #eef4fa;
   display: flex;
@@ -159,6 +200,28 @@ nav {
   padding-bottom: 15px;
 }
 
+/* QUOTES SECTION */
+
+.quotesContain {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerTop {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/*WHATS CBD */
 .whyCBDmain {
   display: flex;
 }
@@ -169,6 +232,7 @@ nav {
   font-size: 10px;
 }
 
+/*FOOTER */
 .footer {
   background-color: #4f6d8c;
   height: 120px;

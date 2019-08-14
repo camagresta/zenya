@@ -12,7 +12,9 @@ const Navbar = () => (
 
       <a className="navLinks">Contact</a>
 
-      <button className="navLinks">Shop</button>
+      <button type="button" className="shopBtn">
+        Shop
+      </button>
     </div>
   </nav>
 )

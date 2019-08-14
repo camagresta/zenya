@@ -7,9 +7,9 @@ import {WhyCBD} from './whyCBD'
  */
 export const UserHome = props => {
   return (
-    <div className="section home">
-      <div className="section bgimg1"></div>
-      <div className="section bgimg2"></div>
+    <div className="wrapper">
+      <div className="bgimg1"></div>
+      <div className="bgimg2"></div>
       <Ingredients />
       <Quotes />
       <WhyCBD />
