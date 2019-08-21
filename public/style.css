@@ -17,13 +17,17 @@ button {
   font-size: 10px;
   text-align: center;
 }
-nav {
+.navbars {
   background-image: url('./images/nav.png');
-  font-size: 14px;
-  opacity: 75%;
-  padding-top: 3px;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  padding-left: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .page .home {
   display: flex;
@@ -95,34 +99,35 @@ nav {
 }
 
 /* NAV BAR */
-.mainNav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
+
 .navLinks {
   text-decoration: none;
   color: #4f6d8c;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .mainNav li {
   text-align: center;
 }
-
+.collapsed {
+  background-image: url('./images/nav.png');
+  display: flex;
+  justify-content: space-between;
+}
 .navLogo {
   padding-top: 5px;
   padding-bottom: 5px;
-  width: 35px;
-  height: 35px;
+  width: 60px;
+  height: 55px;
+  padding-right: 20px;
+  align-self: center;
 }
 .shopBtn {
   background-color: #4f6d8c;
   border: none;
   text-align: center;
   color: white;
-  padding: 4px 15px;
+  padding: 3px 12px;
   border-radius: 4px;
 }
 

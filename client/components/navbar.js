@@ -1,22 +1,37 @@
 import React from 'react'
 const Navbar = () => (
-  <nav className="nav menu">
-    <div className="mainNav">
+  <div className="pos-f-t">
+    <div className="collapse collapsed" id="navbarToggleExternalContent">
+      <div>
+        <a className="nav-link navLinks" href="#">
+          About Us
+        </a>
+        <a className="nav-link navLinks" href="#">
+          Our Ingredients
+        </a>
+        <a className="nav-link navLinks" href="#">
+          What is CBD?
+        </a>
+      </div>
       <img className="navLogo" src="./images/navLogo.png" />
-
-      <a className="navLinks">About Us</a>
-
-      <a className="navLinks">Our Ingredients</a>
-
-      <a className="navLinks">Learn About CBD</a>
-
-      <a className="navLinks">Contact</a>
-
+    </div>
+    <nav className="navbars">
+      <button
+        className="navbar-toggle"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <a className="navLinks">Menu</a>
+      </button>
       <button type="button" className="shopBtn">
         Shop
       </button>
-    </div>
-  </nav>
+    </nav>
+  </div>
 )
 
 export default Navbar
