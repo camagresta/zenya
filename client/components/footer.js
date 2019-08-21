@@ -1,6 +1,6 @@
 import React from 'react'
 const Footer = () => (
-  <Footer className="page-footer font-small indigo">
+  <div className="page-footer footer">
     <div className="container text-center text-md-left">
       <div className="row">
         <div className="col-md-3 mx-auto">
@@ -86,6 +86,6 @@ const Footer = () => (
         </div>
       </div>
     </div>
-  </Footer>
+  </div>
 )
 export default Footer
