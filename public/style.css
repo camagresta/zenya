@@ -40,19 +40,35 @@ a {
 /*Extra small devices */
 @media (max-width: 576px) {
   .bgimg1 {
-    background-image: url('./images/home1.png');
+    background-image: url('./images/bgImgTop.png');
     height: 250px;
   }
 
   .bgimg2 {
     background-image: url('./images/bgimg2.png');
-    height: 300px;
+    height: 380px;
+  }
+  .whyZenyaCont {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-top: 30px;
+  }
+  .whyZenyaHeader {
+    color: #4f6d8c;
+    font-size: 12px;
+    align-self: center;
+    padding-bottom: 2px;
+  }
+  .whyZenyaContent {
+    color: #4f6d8c;
+    font-size: 8px;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .bgimg1 {
-    background-image: url('./images/home1.png');
+    background-image: url('./images/bgImgTop.png');
     height: 350px;
   }
 
@@ -60,12 +76,28 @@ a {
     background-image: url('./images/bgimg2.png');
     height: 650px;
   }
+  .whyZenyaCont {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding-top: 60px;
+  }
+  .whyZenyaHeader {
+    color: #4f6d8c;
+    font-size: 22px;
+    align-self: center;
+    padding-bottom: 2px;
+  }
+  .whyZenyaContent {
+    color: #4f6d8c;
+    font-size: 16px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .bgimg1 {
-    background-image: url('./images/home1.png');
+    background-image: url('./images/bgImgTop.png');
     height: 500px;
   }
 
@@ -78,7 +110,7 @@ a {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .bgimg1 {
-    background-image: url('./images/home1.png');
+    background-image: url('./images/bgImgTop.png');
     height: 600px;
   }
 
@@ -91,14 +123,32 @@ a {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .bgimg1 {
-    background-image: url('./images/home1.png');
-    height: 750px;
+    background-image: url('./images/bgImgTop.png');
+    height: 680px;
   }
 
   .bgimg2 {
     background-image: url('./images/bgimg2.png');
-    height: 1300px;
+    height: 1200px;
   }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1500px) {
+  .bgimg1 {
+    background-image: url('./images/bgImgTop.png');
+    height: 1200px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 2100px;
+  }
+}
+
+.bgimg2 {
+  display: flex;
+  justify-content: center;
 }
 
 /* NAV BAR */

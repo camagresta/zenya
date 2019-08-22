@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 const Navbar = () => (
-  <div className="pos-f-t">
+  <div className="pos-f-t fixed-top">
     <div className="collapse collapsed" id="navbarToggleExternalContent">
       <div>
         <a className="nav-link navLinks" href="#">
