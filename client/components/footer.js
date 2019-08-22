@@ -1,88 +1,66 @@
 import React from 'react'
 const Footer = () => (
-  <div className="page-footer footer">
-    <div className="container text-center text-md-left">
-      <div className="row">
-        <div className="col-md-3 mx-auto">
-          <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-          <ul className="list-unstyled">
-            <li>
-              <a href="#!">Very long link 1</a>
-            </li>
-            <li>
-              <a href="#!">Very long link 2</a>
-            </li>
-            <li>
-              <a href="#!">Very long link 3</a>
-            </li>
-            <li>
-              <a href="#!">Very long link 4</a>
-            </li>
-          </ul>
+  <div className="footerContainer">
+    <div className="footer">
+      <div>
+        <img className="footerLogo" src="./images/navLogoWhite.png" />
+      </div>
+      <div className="footerTextCont">
+        <div className="footerP">
+          <a className="footerText" href="#">
+            about us
+          </a>
+          <a className="footerText" href="#">
+            our ingredients
+          </a>
+          <a className="footerText" href="#">
+            learn about cbd
+          </a>
+          <a className="footerText" href="#">
+            contact
+          </a>
         </div>
-
-        <hr className="clearfix w-100 d-md-none" />
-
-        <div className="col-md-3 mx-auto">
-          <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-          <ul className="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
-            </li>
-          </ul>
+      </div>
+      <div className="footerTextCont">
+        <div className="footerP">
+          <a className="footerText" href="#">
+            privacy policy
+          </a>
+          <a className="footerText" href="#">
+            terms of use
+          </a>
         </div>
-
-        <hr className="clearfix w-100 d-md-none" />
-
-        <div className="col-md-3 mx-auto">
-          <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-          <ul className="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
-            </li>
-          </ul>
+      </div>
+      <div className="footerTextCont">
+        <div className="footerP">
+          <span className="footerText">stay in touch</span>
+          <div className="input-group mb-3">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="email"
+              aria-label="email address"
+              aria-describedby="button-addon2"
+            />
+            <div className="input-group-append">
+              <button
+                className="btn btn-outline-light"
+                type="button"
+                id="button-addon2"
+              >
+                submit
+              </button>
+            </div>
+          </div>
         </div>
-
-        <hr className="clearfix w-100 d-md-none" />
-
-        <div className="col-md-3 mx-auto">
-          <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-          <ul className="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
-            </li>
-          </ul>
+      </div>
+      <div className="footerTextCont">
+        <div className="footerP copyright">
+          <span className="footerText copyright">
+            Copyright © 2019 Zenya. All rights reserved. These statements have
+            not been evaluated by the food and drug administration. This product
+            is not intended to diagnose, treat, cure, or prevent any disease.
+          </span>
         </div>
       </div>
     </div>

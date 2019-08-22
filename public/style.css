@@ -17,12 +17,15 @@ button {
   font-size: 10px;
   text-align: center;
 }
+a {
+  text-decoration: none;
+}
 .navbars {
   background-image: url('./images/nav.png');
   font-size: 12px;
   padding-top: 15px;
   padding-bottom: 15px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+
   padding-left: 25px;
   padding-right: 25px;
   display: flex;
@@ -135,6 +138,10 @@ button {
 
 .sectionHeader {
   text-align: center;
+  padding-bottom: 45px;
+  padding-top: 20px;
+  color: #4f6d8c;
+  font-size: 14px;
 }
 
 /* .content {
@@ -142,7 +149,9 @@ button {
 } */
 
 .bgimg1,
-.bgimg2 {
+.bgimg2,
+.shopCont,
+.navbars {
   position: relative;
   background-repeat: no-repeat;
   background-position: center center;
@@ -169,10 +178,11 @@ button {
   flex-direction: row;
   font-size: 14px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-bottom: 60px;
 }
-
+.ingrPhoto {
+}
 .ingrContent {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -182,17 +192,19 @@ button {
 
 .ingrTextCont {
   flex-grow: 1;
-  max-width: 50%;
+  flex: 0 1 400px;
 }
 
 .ingrHeader {
   margin-block-start: 0;
   margin-block-end: 5px;
   font-size: 12px;
+  color: #4f6d8c;
 }
 
 .ingrButton {
   text-align: center;
+  padding-top: 40px;
 }
 .textLeft {
   text-align: right;
@@ -229,16 +241,95 @@ button {
 /*WHATS CBD */
 .whyCBDmain {
   display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 5px;
+  padding-bottom: 30px;
 }
 
 .cbdHeader {
   margin-block-start: 0;
   margin-block-end: 5px;
   font-size: 10px;
+  color: #4f6d8c;
 }
-
+.cbdImage {
+  padding-top: 10px;
+  padding-right: 5px;
+  flex: 0 1 300px;
+}
+.cbdHeaderTop {
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #4f6d8c;
+  font-size: 14px;
+}
+.cbdP {
+  padding-bottom: 10px;
+}
+.cbdInfo {
+  flex: 1 0 200px;
+  max-width: 500px;
+}
 /*FOOTER */
 .footer {
   background-color: #4f6d8c;
-  height: 120px;
+  min-height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 11px;
+}
+.footerText {
+  color: white;
+}
+.footerLogo {
+  padding-left: 10px;
+  height: 80px;
+  width: 90px;
+  padding-right: 5px;
+}
+.footerP {
+  display: flex;
+  flex-direction: column;
+}
+.footerTextCont {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.footerContainer {
+  background-color: #4f6d8c;
+}
+.copyright {
+  max-width: 200px;
+  font-size: 8px;
+}
+
+/*SHOP PAGE */
+
+.shopCont {
+  display: flex;
+  flex-wrap: wrap;
+}
+.checkoutCont {
+  background-image: url('./images/backgroundShop.png');
+  flex: 1 0 150px;
+}
+.product {
+  flex: 1 0 100px;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.shopHeader {
+  color: #4f6d8c;
+  text-align: center;
 }

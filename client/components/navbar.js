@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 const Navbar = () => (
   <div className="pos-f-t">
     <div className="collapse collapsed" id="navbarToggleExternalContent">
@@ -10,7 +11,7 @@ const Navbar = () => (
           Our Ingredients
         </a>
         <a className="nav-link navLinks" href="#">
-          What is CBD?
+          Learn About CBD
         </a>
       </div>
       <img className="navLogo" src="./images/navLogo.png" />
@@ -27,9 +28,11 @@ const Navbar = () => (
       >
         <a className="navLinks">Menu</a>
       </button>
-      <button type="button" className="shopBtn">
-        Shop
-      </button>
+      <Link to="/shop">
+        <button type="button" className="shopBtn">
+          Shop
+        </button>{' '}
+      </Link>
     </nav>
   </div>
 )

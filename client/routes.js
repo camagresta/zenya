@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {withRouter, Route, Switch} from 'react-router-dom'
-import {UserHome, Navbar, Footer} from './components'
+import {UserHome, Navbar, Footer, Shop} from './components'
 
 /**
  * COMPONENT
@@ -13,6 +13,7 @@ class Routes extends Component {
         <Switch>
           {/* Routes placed here are available to all visitors */}
           <Route exact path="/" component={UserHome} />
+          <Route exact path="/shop" component={Shop} />
         </Switch>
         <Footer />
       </div>

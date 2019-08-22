@@ -9,13 +9,13 @@ export const Ingredients = props => {
       <h4 className="sectionHeader">Ingredients That Work</h4>
       <div className="ingrdContainer">
         <div className="ingrSection">
-          <img
-            className="ingrImge"
-            src="/images/fruit.png"
-            alt="hemp extract"
-            height="100px"
-            width="auto"
-          />
+          <div className="ingrPhoto">
+            <img
+              className="responsive"
+              src="/images/fruit.png"
+              alt="hemp extract"
+            />
+          </div>
           <div className="ingrTextCont">
             <h6 className="ingrHeader">Broad Spectrum Hemp Extract</h6>
             <p className="ingrContent">
@@ -29,13 +29,15 @@ export const Ingredients = props => {
           </div>
         </div>
         <div className="ingrSection reverse">
-          <img
-            className="ingrImge"
-            src="/images/greenTea.png"
-            alt="green tea"
-            height="100px"
-            width="auto"
-          />
+          <div className="ingrPhoto">
+            <img
+              className="responsive"
+              src="/images/greenTea.png"
+              alt="green tea"
+              height="100px"
+              width="auto"
+            />
+          </div>
           <div className="textLeft ingrTextCont">
             <h6 className="ingrHeader">L-Theanine Green Tea Extract</h6>
             <p className="ingrContent">
@@ -47,13 +49,15 @@ export const Ingredients = props => {
           </div>
         </div>
         <div className="ingrSection">
-          <img
-            className="ingrImge"
-            src="/images/leafExtract.png"
-            alt="leaf extract"
-            height="100px"
-            width="auto"
-          />
+          <div className="ingrPhoto">
+            <img
+              className="responsive"
+              src="/images/leafExtract.png"
+              alt="leaf extract"
+              height="100px"
+              width="auto"
+            />
+          </div>
           <div className="ingrTextCont">
             <h6 className="ingrHeader">Luobuma Leaf Extract</h6>
             <p className="ingrContent">
@@ -67,13 +71,15 @@ export const Ingredients = props => {
           </div>
         </div>
         <div className="ingrSection reverse">
-          <img
-            className="ingrImge"
-            src="/images/seeds.png"
-            alt="griffonia seed extract"
-            height="100px"
-            width="auto"
-          />
+          <div className="ingrPhoto">
+            <img
+              className="responsive"
+              src="/images/seeds.png"
+              alt="griffonia seed extract"
+              height="100px"
+              width="auto"
+            />
+          </div>
           <div className="textLeft ingrTextCont">
             <h6 className="ingrHeader">Griffonia Seed Extract</h6>
             <p className="ingrContent">
@@ -88,13 +94,15 @@ export const Ingredients = props => {
           </div>
         </div>
         <div className="ingrSection" id="finalSection">
-          <img
-            className="ingrImge"
-            src="/images/fruit.png"
-            alt="fruit"
-            height="100px"
-            width="auto"
-          />
+          <div className="ingrPhoto">
+            <img
+              className="responsive"
+              src="/images/fruit.png"
+              alt="fruit"
+              height="100px"
+              width="auto"
+            />
+          </div>
           <div className="ingrTextCont">
             <h6 className="ingrHeader">Natural Flavors</h6>
             <p className="ingrContent">

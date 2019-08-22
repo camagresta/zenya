@@ -10,11 +10,11 @@ export const Quotes = props => {
         src="/images/quotesBg.png"
         className="bgimg3"
         width="100%"
-        height="100px"
+        height="150px"
       />
-      <div className="centered">Quote goes here</div>
+      <div className="centered">quote</div>
       <div className="centerTop">
-        <img src="/images/healthline.png" width="85px" />
+        <p>quote source </p>
       </div>
     </div>
   )
