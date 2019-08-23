@@ -3,66 +3,356 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #4f6d8c;
+}
+p {
+  margin: 0;
+  padding: 0;
 }
 
-nav {
-  background-color: rgb(193, 214, 239);
-  font-size: 14px;
-  opacity: 75%;
-  padding-top: 3px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding-left: 10px;
-  opacity: 75%;
+button {
+  color: #4f6d8c;
+
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.navbars {
+  background-image: url('./images/nav.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.page .home {
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  flex-wrap: wrap;
 }
 
-.mainNav {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-direction: space-around;
+/*Extra small devices */
+@media (max-width: 576px) {
+  .bgimg1 {
+    background-image: url('./images/home1.png');
+    height: 250px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 380px;
+  }
 }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .bgimg1 {
+    background-image: url('./images/bgImgTop.png');
+    height: 350px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 650px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .bgimg1 {
+    background-image: url('./images/bgImgTop.png');
+    height: 500px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 750px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .bgimg1 {
+    background-image: url('./images/bgImgTop.png');
+    height: 600px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 900px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .bgimg1 {
+    background-image: url('./images/bgImgTop.png');
+    height: 680px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 1200px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1500px) {
+  .bgimg1 {
+    background-image: url('./images/bgImgTop.png');
+    height: 1200px;
+  }
+
+  .bgimg2 {
+    background-image: url('./images/bgimg2.png');
+    height: 2100px;
+  }
+}
+
+.bgimg2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* NAV BAR */
+
 .navLinks {
   text-decoration: none;
   color: #4f6d8c;
-  margin: 10px;
 }
 
 .mainNav li {
   text-align: center;
 }
-
+.collapsed {
+  background-image: url('./images/nav.png');
+  display: flex;
+  justify-content: space-between;
+}
 .navLogo {
   padding-top: 5px;
   padding-bottom: 5px;
-  width: 35px;
-  height: 35px;
+  width: 65px;
+  height: 55px;
+  padding-right: 20px;
+  align-self: center;
 }
+.shopBtn {
+  background-color: #4f6d8c;
+  border: none;
+  text-align: center;
+  color: white;
+  padding: 3px 12px;
+  border-radius: 4px;
+}
+
+/*USER-HOME - SECTIONS ONE AND TWO */
+
+.sectionHeader {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  color: #4f6d8c;
+}
+
+/* .content {
+  height: 600px;
+} */
 
 .bgimg1,
 .bgimg2,
-.bgimg3 {
+.product {
   position: relative;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
 }
-.bgimg1 {
+/* .bgimg1 {
   background-image: url('./images/home1.png');
-  padding-bottom: 65.89%;
-  height: 0;
+  height: 250px;
 }
 
 .bgimg2 {
   background-image: url('./images/bgimg2.png');
-  padding-bottom: 70%;
-  height: 0;
+  height: 350px;
+} */
+/* INGREDIENTS SECTION */
+.ingrdContainer {
+  padding-top: 30px;
+}
+.ingrMain {
+  background-color: #eef4fa;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.ingrSection {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 60px;
+}
+.ingrPhoto {
+}
+.ingrContent {
+  margin-block-start: 0;
+  margin-block-end: 0;
+
+  color: #7d7d7d;
 }
 
-.bgimg3 {
-  background-image: url('img_parallax3.jpg');
-  min-height: 400px;
+.ingrTextCont {
+  flex-grow: 1;
+  flex: 0 1 400px;
+}
+
+.ingrHeader {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+
+  color: #4f6d8c;
+}
+
+.ingrButton {
+  text-align: center;
+  padding-top: 40px;
+}
+.textLeft {
+  text-align: right;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+
+#finalSection {
+  padding-bottom: 15px;
+}
+
+/* QUOTES SECTION */
+
+.quotesContain {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerTop {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/*WHATS CBD */
+.whyCBDmain {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-left: 5px;
+  padding-bottom: 150px;
+}
+
+.cbdHeader {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+
+  color: #4f6d8c;
+}
+.cbdImage {
+  padding-top: 10px;
+  padding-right: 5px;
+  flex: 0 1 300px;
+}
+.cbdHeaderTop {
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #4f6d8c;
+}
+.cbdP {
+  padding-bottom: 10px;
+}
+.cbdInfo {
+  flex: 1 0 200px;
+  max-width: 500px;
+}
+/*FOOTER */
+.footer {
+  background-color: #4f6d8c;
+  min-height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footerText {
+  color: white;
+}
+.footerLogo {
+  padding-left: 10px;
+  height: 80px;
+  width: 90px;
+  padding-right: 5px;
+}
+.footerP {
+  display: flex;
+  flex-direction: column;
+}
+.footerTextCont {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.footerContainer {
+  background-color: #4f6d8c;
+}
+.copyright {
+  max-width: 200px;
+}
+
+/*SHOP PAGE */
+
+.shopCont {
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-around;
+}
+.checkoutCont {
+  background-image: url('./images/backgroundShop.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.product {
+  background-image: url('./images/product.png');
+  height: 500px;
+  width: 500px;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.shopHeader {
+  color: #4f6d8c;
+  text-align: center;
+  padding-top: 10px;
+}
+.shopButtons {
+  display: flex;
+  flex-direction: column;
+}
+.shopPage {
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
