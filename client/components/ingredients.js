@@ -7,6 +7,7 @@ export const Ingredients = props => {
   return (
     <div className="ingrMain">
       <h4 className="sectionHeader">Ingredients That Work</h4>
+      <img src="/images/line.png" width="100%" />
       <div className="ingrdContainer">
         <div className="ingrSection">
           <div className="ingrPhoto">
@@ -28,6 +29,7 @@ export const Ingredients = props => {
             </p>
           </div>
         </div>
+        <img src="/images/line.png" width="100%" />
         <div className="ingrSection reverse">
           <div className="ingrPhoto">
             <img
@@ -48,6 +50,7 @@ export const Ingredients = props => {
             </p>
           </div>
         </div>
+        <img src="/images/line.png" width="100%" />
         <div className="ingrSection">
           <div className="ingrPhoto">
             <img
@@ -70,6 +73,7 @@ export const Ingredients = props => {
             </p>
           </div>
         </div>
+        <img src="/images/line.png" width="100%" />
         <div className="ingrSection reverse">
           <div className="ingrPhoto">
             <img
@@ -93,6 +97,7 @@ export const Ingredients = props => {
             </p>
           </div>
         </div>
+        <img src="/images/line.png" width="100%" />
         <div className="ingrSection" id="finalSection">
           <div className="ingrPhoto">
             <img

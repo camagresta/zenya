@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 const Navbar = () => (
-  <nav className="navbar navbars navbar-light fixed-top navbar-expand-md">
+  <nav className="fixed-top navbar navbars navbar-light fixed-top navbar-expand-md">
     <div className="container">
       <Link to="/">
         <img className="navLogo" src="./images/navLogo.png" />

@@ -14,6 +14,7 @@ export const UserHome = props => {
           <div className="whyZenyaHeader">
             <h4 className="whyZenyaHeader">Why Zenya </h4>
           </div>
+
           <div className="whyZenyaP">
             <p className="whyZenyaContent">
               Zenya was created in New York, with the whole world in mind. While

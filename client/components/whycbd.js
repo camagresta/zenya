@@ -16,26 +16,26 @@ export const WhyCBD = () => {
           non-psychoactive, CBD is widely regarded to possess incredible health
           potential.
         </p>
-        <h6 className="cbdHeader">Will Zenya products get me high?</h6>
+        <h5 className="cbdHeader">Will Zenya products get me high?</h5>
         <p className="cbdP">
           No. They will not get you high. CBD is non-psychoactive with a
           seperate effect from THC that is relaxing.
         </p>
-        <h6 className="cbdHeader">Do your products have THC in them?</h6>
+        <h5 className="cbdHeader">Do your products have THC in them?</h5>
         <p className="cbdP">
           No where near enough to affect you. Zenya contains only teeny tiny
           traces of THC, the stuff in marijuana that gives you a buzz.
         </p>
-        <h6 className="cbdHeader">Will I fail a drug test if I use CBD oil?</h6>
+        <h5 className="cbdHeader">Will I fail a drug test if I use CBD oil?</h5>
         <p className="cbdP">
           It's unlikely that CBD will show up in a drug test. If you have to
           take one for employment, chances are they will be screening for
           cannabis. But that actually means they're looking for the presence of
           THC or THC metabolites—not CBD.
         </p>
-        <h6 className="cbdHeader">
+        <h5 className="cbdHeader">
           What's the difference between Hemp oil and CBD oil?
-        </h6>
+        </h5>
         <p className="cbdP">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
