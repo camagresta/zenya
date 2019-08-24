@@ -5,8 +5,8 @@ import React from 'react'
  */
 export const Ingredients = props => {
   return (
-    <div className="ingrMain">
-      <h4 className="sectionHeader">Ingredients That Work</h4>
+    <div id="ingredients" className="ingrMain">
+      <h1 className="sectionHeader">Ingredients That Work</h1>
       <img src="/images/line.png" width="100%" />
       <div className="ingrdContainer">
         <div className="ingrSection">
@@ -18,8 +18,8 @@ export const Ingredients = props => {
             />
           </div>
           <div className="ingrTextCont">
-            <h6 className="ingrHeader">Broad Spectrum Hemp Extract</h6>
-            <p className="ingrContent">
+            <h2 className="ingrHeader">Broad Spectrum Hemp Extract</h2>
+            <p className="smallerP ingrContent">
               Hemp oil is derived from the hemp plant. Hemp plants are a form of
               cannabis sativa, that does not contain any THC, the extracted oil
               does not contain either. Full spectrum hemp oil also contains
@@ -41,8 +41,8 @@ export const Ingredients = props => {
             />
           </div>
           <div className="textLeft ingrTextCont">
-            <h6 className="ingrHeader">L-Theanine Green Tea Extract</h6>
-            <p className="ingrContent">
+            <h2 className="ingrHeader">L-Theanine Green Tea Extract</h2>
+            <p className="smallerP ingrContent">
               L-theanine, an amino acid found in green tea, reduces anxiety by
               blocking excitatory stimuli at glutamate receptors in the brain.
               The tea leaves and fungi benefit your cognitive health, promoting
@@ -62,8 +62,8 @@ export const Ingredients = props => {
             />
           </div>
           <div className="ingrTextCont">
-            <h6 className="ingrHeader">Luobuma Leaf Extract</h6>
-            <p className="ingrContent">
+            <h2 className="ingrHeader">Luobuma Leaf Extract</h2>
+            <p className="smallerP ingrContent">
               Apocynum venetum, called luobuma in China, is a small shrub whose
               leaves make a popular herbal tea. Luobuma has been used for
               hundreds of years in Chinese medicine and Uighur traditional
@@ -85,8 +85,8 @@ export const Ingredients = props => {
             />
           </div>
           <div className="textLeft ingrTextCont">
-            <h6 className="ingrHeader">Griffonia Seed Extract</h6>
-            <p className="ingrContent">
+            <h2 className="ingrHeader">Griffonia Seed Extract</h2>
+            <p className="smallerP ingrContent">
               The seeds of Griffonia simplicifolia Baill, a shrub native to West
               Africa, are rich in 5-hydroxy-l-tryptophan (5-HTP) which is
               important in the synthesis of serotonin, a chemical messenger that
@@ -109,8 +109,8 @@ export const Ingredients = props => {
             />
           </div>
           <div className="ingrTextCont">
-            <h6 className="ingrHeader">Natural Flavors</h6>
-            <p className="ingrContent">
+            <h2 className="ingrHeader">Natural Flavors</h2>
+            <p className="smallerP ingrContent">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -122,7 +122,7 @@ export const Ingredients = props => {
         </div>
       </div>
       <div className="ingrButton">
-        <button type="button">
+        <button className="button" type="button">
           Have a look at our full list of ingredients by clicking here
         </button>
       </div>

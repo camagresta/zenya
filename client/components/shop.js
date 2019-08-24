@@ -24,30 +24,51 @@ class Shop extends React.Component {
   render() {
     return (
       <div className="shopPage">
-        <h4 className="text-center"> our products </h4>
+        <h1 className="text-center"> our products </h1>
         <img src="/images/line.png" width="100%" />
         <div className="shopCont">
-          <div className="product">
-            <p>hi</p>
-          </div>
+          <div className="product"></div>
           <div className="checkoutCont">
             <div className="checkoutContent">
-              <h5 className="shopHeader">Lemon Lime Relax </h5>
-              <div className="shopButtons">
-                <div>
-                  <button type="button">2oz Single Shot</button>
-                  <button type="button"> 2oz / 6 pack</button>
-                </div>
-                <div>
-                  <button type="button" onClick={this.decrease}>
-                    -
+              <div className="checkoutCon">
+                <h2 className="shopHeader">Lemon Lime Relax </h2>
+                <img src="/images/line.png" width="100%" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <p>$7.99</p>
+                <div className="shopButtons">
+                  <div>
+                    <button className="shopButtons2 button" type="button">
+                      2oz Single Shot
+                    </button>
+                    <button className=" shopButtons2 button" type="button">
+                      {' '}
+                      2oz / 6 pack
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      className="shopButtons2 button"
+                      type="button"
+                      onClick={this.decrease}
+                    >
+                      -
+                    </button>
+                    <span> {this.state.quantity} </span>
+                    <button
+                      className="shopButtons2 button"
+                      type="button"
+                      onClick={this.increase}
+                    >
+                      +
+                    </button>
+                  </div>
+                  <button className="shopButtons2 button" type="button">
+                    Add to Cart
                   </button>
-                  <span> {this.state.quantity} </span>
-                  <button type="button" onClick={this.increase}>
-                    +
-                  </button>
                 </div>
-                <button type="button">Add to Cart</button>
               </div>
             </div>
           </div>

@@ -21,24 +21,24 @@ const Navbar = () => (
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a className="nav-link navLinks" href="#">
+            <a className="nav-link navLinks" href="/#aboutUs">
               About Us
               <span className="sr-only">(current)</span>
             </a>
           </li>
 
           <li className="nav-item">
-            <a className="nav-link navLinks" href="#">
+            <a className="nav-link navLinks" href="/#ingredients">
               Our Ingredients
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link navLinks" href="#">
+            <a className="nav-link navLinks" href="/#learnAboutCBD">
               Learn About CBD
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link navLinks" href="#">
+            <a className="nav-link navLinks" href="/#contact">
               Contact
             </a>
           </li>

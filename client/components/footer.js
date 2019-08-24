@@ -1,50 +1,50 @@
 import React from 'react'
 const Footer = () => (
   <div className="footerContainer">
-    <div className="footer">
+    <div id="contact" className="footer">
       <div>
         <img className="footerLogo" src="./images/navLogoWhite.png" />
       </div>
       <div className="footerTextCont">
         <div className="footerP">
-          <a className="footerText" href="#">
+          <a className="a footerText" href="/#aboutUs">
             about us
           </a>
-          <a className="footerText" href="#">
+          <a className="a footerText" href="/#ingredients">
             our ingredients
           </a>
-          <a className="footerText" href="#">
+          <a className="a footerText" href="/#learnAboutCBD">
             learn about cbd
           </a>
-          <a className="footerText" href="#">
+          <a className="a footerText" href="/#contact">
             contact
           </a>
         </div>
       </div>
       <div className="footerTextCont">
         <div className="footerP">
-          <a className="footerText" href="#">
+          <a className="a footerText" href="#">
             privacy policy
           </a>
-          <a className="footerText" href="#">
+          <a className="a footerText" href="#">
             terms of use
           </a>
         </div>
       </div>
       <div className="footerTextCont">
         <div className="footerP">
-          <span className="footerText">stay in touch</span>
+          <p className="a footerText">stay in touch</p>
           <div className="input-group mb-3">
             <input
               type="text"
-              className="form-control"
+              className="form-control input"
               placeholder="email"
               aria-label="email address"
               aria-describedby="button-addon2"
             />
             <div className="input-group-append">
               <button
-                className="btn btn-outline-light"
+                className="button btn btn-sm btn-outline-light"
                 type="button"
                 id="button-addon2"
               >
@@ -56,11 +56,11 @@ const Footer = () => (
       </div>
       <div className="footerTextCont">
         <div className="footerP copyright">
-          <span className="footerText copyright">
+          <p className="a footerText copyright">
             Copyright © 2019 Zenya. All rights reserved. These statements have
             not been evaluated by the food and drug administration. This product
             is not intended to diagnose, treat, cure, or prevent any disease.
-          </span>
+          </p>
         </div>
       </div>
     </div>
