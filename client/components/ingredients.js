@@ -6,7 +6,7 @@ import React from 'react'
 export const Ingredients = props => {
   return (
     <div id="ingredients" className="ingrMain">
-      <h1 className="sectionHeader">Ingredients That Work</h1>
+      <h1 className="ingrHeader">Ingredients That Work</h1>
       <img src="/images/line.png" width="100%" />
       <div className="ingrdContainer">
         <div className="ingrSection">
