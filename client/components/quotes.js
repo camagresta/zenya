@@ -12,10 +12,6 @@ export const Quotes = props => {
         width="100%"
         height="150px"
       />
-      <div className="centered">quote</div>
-      <div className="centerTop">
-        <p>quote source </p>
-      </div>
     </div>
   )
 }
