@@ -18,14 +18,10 @@ export const Ingredients = props => {
             />
           </div>
           <div className="ingrTextCont">
-            <h2 className="ingrHeader">Broad Spectrum Hemp Extract</h2>
+            <h2 className="ingrHeader">Organic Hemp Extract</h2>
             <p className="smallerP ingrContent">
-              Hemp oil is derived from the hemp plant. Hemp plants are a form of
-              cannabis sativa, that does not contain any THC, the extracted oil
-              does not contain either. Full spectrum hemp oil also contains
-              essential vitamins, minerals, Omega fatty acids, flavonoids,
-              chlorophyll and terpenes. Zenya is infused with natural, safe
-              extract from organically grown hemp from Colorado.
+              Safe non-intoxicating broad-spectrum hemp extract with CBD to help
+              you relax.
             </p>
           </div>
         </div>
@@ -41,12 +37,9 @@ export const Ingredients = props => {
             />
           </div>
           <div className="textLeft ingrTextCont">
-            <h2 className="ingrHeader">L-Theanine Green Tea Extract</h2>
+            <h2 className="ingrHeader">L-Theanine from Green Tea Extract</h2>
             <p className="smallerP ingrContent">
-              L-theanine, an amino acid found in green tea, reduces anxiety by
-              blocking excitatory stimuli at glutamate receptors in the brain.
-              The tea leaves and fungi benefit your cognitive health, promoting
-              relaxation, healthy sleep and focus.
+              Promotes cognitive health, relaxation, healthy sleep and focus.
             </p>
           </div>
         </div>
@@ -62,14 +55,10 @@ export const Ingredients = props => {
             />
           </div>
           <div className="ingrTextCont">
-            <h2 className="ingrHeader">Luobuma Leaf Extract</h2>
+            <h2 className="ingrHeader">Rafuma Leaf Extract</h2>
             <p className="smallerP ingrContent">
-              Apocynum venetum, called luobuma in China, is a small shrub whose
-              leaves make a popular herbal tea. Luobuma has been used for
-              hundreds of years in Chinese medicine and Uighur traditional
-              medicine near Tibet. Modern research has discovered many
-              physiological effects of Luobuma, including antidepressant and
-              anti-anxiety properties.
+              Used in China for 100s of years to alleviate occasional stress,
+              promote a positive outlook, and improve focus and sleep quality.
             </p>
           </div>
         </div>
@@ -87,39 +76,47 @@ export const Ingredients = props => {
           <div className="textLeft ingrTextCont">
             <h2 className="ingrHeader">Griffonia Seed Extract</h2>
             <p className="smallerP ingrContent">
-              The seeds of Griffonia simplicifolia Baill, a shrub native to West
-              Africa, are rich in 5-hydroxy-l-tryptophan (5-HTP) which is
-              important in the synthesis of serotonin, a chemical messenger that
-              sends signals in your brain. Low serotonin levels are associated
-              with anxiety, depression, sleep disorders, weight gain and other
-              health problems. Studies indicate that Griffonia seed extract has
-              anti-anxiety effects.
+              Benefits mood and lowers anxiety.
             </p>
           </div>
         </div>
         <img src="/images/line.png" width="100%" />
-        <div className="ingrSection" id="finalSection">
+        <div className="ingrSection">
           <div className="ingrPhoto">
             <img
               className="responsive"
-              src="/images/fruit.png"
-              alt="fruit"
+              src="/images/leafExtract.png"
+              alt="leaf extract"
               height="100px"
               width="auto"
             />
           </div>
           <div className="ingrTextCont">
-            <h2 className="ingrHeader">Natural Flavors</h2>
+            <h2 className="ingrHeader">L-tryptophan</h2>
             <p className="smallerP ingrContent">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt.
+              Aids your body in making serotonin to improve mood and sleep.
             </p>
           </div>
         </div>
+        <img src="/images/line.png" width="100%" />
+        <div className="ingrSection reverse">
+          <div className="ingrPhoto">
+            <img
+              className="responsive"
+              src="/images/seeds.png"
+              alt="griffonia seed extract"
+              height="100px"
+              width="auto"
+            />
+          </div>
+          <div className="textLeft ingrTextCont">
+            <h2 className="ingrHeader">Gaba</h2>
+            <p className="smallerP ingrContent">
+              Helps relieve anxiety, benefit mood and reduce symptoms of PMS.
+            </p>
+          </div>
+        </div>
+        <img src="/images/line.png" width="100%" />
       </div>
       <div className="ingrButton">
         <button className="button" type="button">

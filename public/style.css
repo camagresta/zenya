@@ -37,9 +37,9 @@ nav {
   height: 10vh;
 }
 
-.smallerP {
-  font-size: 0.4em;
-}
+/* .smallerP {
+  font-size: 0.7em;
+} */
 .navbars {
   background-image: url('./images/nav.png');
   background-repeat: no-repeat;
@@ -82,17 +82,10 @@ nav {
 /*USER-HOME - SECTIONS ONE AND TWO */
 
 .bgimg1,
-.bgimg2,
 .product {
   background-position: center center;
   background-size: cover;
   height: 100vh;
-}
-.bgimg2 {
-  background-image: url('./images/bgimg2.png');
-  display: flex;
-  justify-content: center;
-  height: 200vh;
 }
 .bgimg1 {
   background-image: url('./images/bgImgTop.png');
@@ -162,8 +155,13 @@ nav {
 .centerTop {
   position: absolute;
   top: 8px;
-  left: 50%;
-  transform: translate(-50%);
+  transform: translate(-0%);
+}
+.bottomRight {
+  position: absolute;
+  bottom: 8px;
+  right: 19px;
+  margin: 30px;
 }
 
 /*WHATS CBD */
@@ -302,127 +300,3 @@ nav {
   margin-left: 45%;
   margin-right: 5%;
 }
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 400px) {
-  .bgimg1 {
-    height: 45vh;
-  }
-
-  .bgimg2 {
-    height: 100vh;
-  }
-  .whyZenyaHeader {
-    padding-top: 3vh;
-  }
-  .whyZenyaP {
-    line-height: 3;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .whatsZenyaHeader {
-    text-align: center;
-    padding-top: 1.3em;
-  }
-  .whatsflex {
-    text-align: left;
-    margin-left: 20%;
-    margin-right: 5%;
-  }
-}
-
-@media (min-width: 400px) {
-  .bgimg1 {
-    height: 50vh;
-  }
-
-  .bgimg2 {
-    height: 90vh;
-    width: 100%;
-  }
-  .whyZenyaHeader {
-    padding-top: 3vh;
-  }
-  .whyZenyaP {
-    line-height: 3;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .whatsZenyaHeader {
-    text-align: center;
-    padding-top: 1.8em;
-  }
-  .whatsflex {
-    text-align: left;
-    margin-left: 43%;
-    margin-right: 5%;
-  }
-}
-
-/* Large devices*/
-@media (min-width: 777px) {
-  .bgimg1 {
-    height: 100vh;
-  }
-
-  .bgimg2 {
-    height: 80vw;
-  }
-  .whatsZenyaHeader {
-    text-align: center;
-    padding-top: 1.4em;
-  }
-  .whatsflex {
-    text-align: left;
-    margin-left: 45%;
-    margin-right: 5%;
-  }
-}
-@media (min-width: 900px) {
-  .bgimg1 {
-    height: 100vh;
-  }
-
-  .bgimg2 {
-    height: 90vw;
-  }
-  .whatsZenyaHeader {
-    text-align: center;
-    padding-top: 20%;
-  }
-  .whatsflex {
-    text-align: left;
-    margin-left: 45%;
-    margin-right: 5%;
-  }
-}
-@media (min-width: 1000px) {
-  .bgimg1 {
-    height: 100vh;
-  }
-
-  .bgimg2 {
-    height: 80vw;
-  }
-  .whyZenyaHeader {
-    padding-top: 5vh;
-  }
-  .whyZenyaP {
-    padding-top: 2vh;
-    line-height: 3;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  .whatsZenyaHeader {
-    text-align: center;
-    padding-top: 3em;
-  }
-}
-/* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {
-  .bgimg1 {
-    height: 680px;
-  }
-
-  .bgimg2 {
-    height: 1200px;
-  }} */
