@@ -25,9 +25,8 @@ export const UserHome = props => {
             </div>
           </div>
         </div>
-        <div className="quotesContain">
-          <img src="/images/third.png" width="100%" />
-          <div className="bottomRight">
+        <div className="third">
+          <div className="thirdContent">
             <h1>Why Zenya?</h1>
             <p>
               Zenya was built for New York City – with the whole world in mind.
