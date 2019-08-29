@@ -8,11 +8,7 @@ import {WhyCBD} from './whyCBD'
 export const UserHome = props => {
   return (
     <div className="wrapper">
-      <img
-        src="/images/bgImgTop.png"
-        width="100%"
-        className="topImg img-fluid"
-      />
+      <div className="topImg"></div>
       <div id="aboutUs" className="quotesContain">
         <img src="/images/aboutUsMobile.png" className="small img-fluid" />
         <img

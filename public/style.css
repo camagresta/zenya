@@ -41,10 +41,12 @@ p,
 } */
 .navbars,
 .topImg {
-  background-image: url('./images/nav.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+.topImg {
+  background-image: url('./images/bgImgTop.png');
 }
 .page .home {
   display: flex;
@@ -289,6 +291,9 @@ p,
     padding-right: 15px;
     left: 50%;
   }
+  .topImg {
+    height: 40vh;
+  }
 }
 
 @media only screen and (min-device-width: 481px) {
@@ -318,6 +323,9 @@ p,
   .smallP {
     font-size: 2.7vmin;
   }
+  .topImg {
+    height: 60vh;
+  }
 }
 @media only screen and (min-device-width: 708px) {
   .small {
@@ -345,5 +353,8 @@ p,
   }
   .smallP {
     font-size: 2.7vmin;
+  }
+  .topImg {
+    height: 100vh;
   }
 }
