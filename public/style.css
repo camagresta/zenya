@@ -53,22 +53,12 @@ p,
 .middleImg {
   background-image: url('./images/aboutMobile.png');
 }
-.third {
-  /* background-image: url('./images/third.png'); */
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.thirdDiv {
-}
 .middleContent {
   padding-top: 20px;
   padding-bottom: 20px;
   line-height: 2;
 }
-.thirdContent {
-}
+
 .page .home {
   display: flex;
 }
