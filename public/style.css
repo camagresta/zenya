@@ -153,10 +153,8 @@ p,
 
 .centerTop {
   position: absolute;
-  top: 36px;
-  padding-left: 4vw;
-  padding-right: 4vw;
-  line-height: 2;
+  top: 20px;
+  padding-left: 30%;
 }
 .bottomRight {
   position: absolute;
