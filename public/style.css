@@ -9,22 +9,22 @@ html {
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 18px;
   text-align: center;
   letter-spacing: 10px;
   font-weight: lighter;
 }
 h2 {
-  font-size: 2.5vw;
+  font-size: 16px;
 }
 a {
   text-decoration: none;
 }
 p,
 .a {
-  margin: 0;
+  margin: 1em;
   padding: 0;
-  font-size: 2.6vmin;
+  font-size: 13px;
 }
 
 .button {
@@ -40,13 +40,22 @@ p,
   font-size: 0.7em;
 } */
 .navbars,
-.topImg {
+.topImg,
+.middleImg {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .topImg {
   background-image: url('./images/bgImgTop.png');
+}
+.middleImg {
+  background-image: url('./images/aboutMobile.png');
+}
+.middleContent {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 2;
 }
 .page .home {
   display: flex;
@@ -64,8 +73,6 @@ p,
   background-color: #eef4fa;
 }
 .navLogo {
-  width: 11.5vh;
-  height: 8vh;
   padding-right: 20px;
   align-self: center;
 }
@@ -152,9 +159,6 @@ p,
 }
 .bottomRight {
   position: absolute;
-  bottom: 8px;
-  padding-right: 15px;
-  left: 50%;
 }
 
 /*WHATS CBD */
@@ -292,7 +296,12 @@ p,
     left: 50%;
   }
   .topImg {
-    height: 40vh;
+    background-image: url('./images/topImg.png');
+    height: 45vh;
+  }
+  .navLogo {
+    height: 60px;
+    width: auto;
   }
 }
 
@@ -355,6 +364,6 @@ p,
     font-size: 2.7vmin;
   }
   .topImg {
-    height: 100vh;
+    height: 50vh;
   }
 }
