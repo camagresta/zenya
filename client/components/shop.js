@@ -4,7 +4,7 @@ class Shop extends React.Component {
   render() {
     return (
       <div className="shopPage">
-        <h1 className="text-center"> our products </h1>
+        <h2 className="text-center"> our products </h2>
         <img src="/images/line.png" width="100%" />
         <div>
           <div>

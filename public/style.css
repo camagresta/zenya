@@ -6,33 +6,26 @@ html {
   font-family: 'Montserrat', sans-serif;
   color: #4f6d8c;
   font-weight: lighter;
+  font-size: calc(13px + (28 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
-h1 {
-  font-size: 4vw;
+h2 {
   text-align: center;
-  letter-spacing: 4px;
+  letter-spacing: 10px;
   font-weight: lighter;
 }
 h2 {
-  font-size: 2.8vw;
 }
 a {
   text-decoration: none;
 }
-p,
-.a {
-  margin: 0;
-  padding: 0;
-  font-size: 2.6vmin;
-}
 
 .button {
-  font-size: 0.3em; /* Let's say this computes to 16px */
+  /* Let's say this computes to 16px */
 }
 
 .input {
-  font-size: 0.3em; /* Let's say this computes to 16px */
+  /* Let's say this computes to 16px */
   padding: 0.625em 1em; /* 0.1875 * 16 = 10px */
 }
 
@@ -40,15 +33,33 @@ p,
   font-size: 0.7em;
 } */
 .navbars,
-.topImg {
-  background-image: url('./images/nav.png');
+.topImg,
+.middleImg,
+.third {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
+.topImg {
+  background-image: url('./images/bgImgTop.png');
+}
+.middleImg {
+  background-image: url('./images/aboutMobile.png');
+  display: flex;
+  align-items: center;
+}
+.middleContent {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 2;
+}
+
+.whyZenya {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .page .home {
   display: flex;
-  flex-wrap: wrap;
 }
 
 /* NAV BAR */
@@ -62,8 +73,6 @@ p,
   background-color: #eef4fa;
 }
 .navLogo {
-  width: 11.5vh;
-  height: 8vh;
   padding-right: 20px;
   align-self: center;
 }
@@ -143,16 +152,11 @@ p,
 
 .centerTop {
   position: absolute;
-  top: 36px;
-  padding-left: 4vw;
-  padding-right: 4vw;
-  line-height: 2;
+  top: 20px;
+  padding-left: 30%;
 }
 .bottomRight {
   position: absolute;
-  bottom: 8px;
-  padding-right: 15px;
-  left: 50%;
 }
 
 /*WHATS CBD */
@@ -268,82 +272,59 @@ p,
 .shopPage {
   padding-top: 100px;
   padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.topImg,
+.middleImg {
+  height: 60vh;
+}
+.middleContent,
+.whyZenya {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 @media only screen and (max-device-width: 480px) {
-  .small {
-    display: block;
+  .topImg {
+    background-image: url('./images/topImg.png');
+    height: 45vh;
   }
-  .large {
-    display: none;
-  }
-  .centerTop {
-    position: absolute;
-    top: 36px;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    line-height: 2;
-  }
-  .bottomRight {
-    position: absolute;
-    bottom: 8px;
-    padding-right: 15px;
-    left: 50%;
+  .navLogo {
+    height: 60px;
+    width: auto;
   }
 }
 
 @media only screen and (min-device-width: 481px) {
-  .small {
-    display: none;
+  .topImg,
+  .middleImg {
+    height: 50vh;
   }
-  .large {
-    display: block;
-  }
-  .centerTop {
-    position: absolute;
-    top: 5%;
+  .middleContent,
+  .whyZenya {
     padding-left: 10%;
     padding-right: 10%;
-    line-height: 2;
-    font-size: 2vmin;
-  }
-  .smaller {
-    font-size: 2.6vmin;
-  }
-  .bottomRight {
-    position: absolute;
-    bottom: 8px;
-    padding-right: 15px;
-    left: 40%;
-  }
-  .smallP {
-    font-size: 2.7vmin;
   }
 }
 @media only screen and (min-device-width: 708px) {
-  .small {
-    display: none;
+  .topImg,
+  .middleImg {
+    height: 70vh;
   }
-  .large {
-    display: block;
-  }
-  .centerTop {
-    position: absolute;
-    top: 5%;
+  .middleContent,
+  .whyZenya {
     padding-left: 10%;
     padding-right: 10%;
-    line-height: 2;
-    font-size: 2vmin;
   }
-  .smaller {
-    font-size: 2.6vmin;
+}
+@media only screen and (min-device-width: 1208px) {
+  .topImg,
+  .middleImg {
+    height: 90vh;
   }
-  .bottomRight {
-    position: absolute;
-    bottom: 10%;
-    padding-right: 15px;
-    left: 40%;
-  }
-  .smallP {
-    font-size: 2.7vmin;
+  .middleContent,
+  .whyZenya {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
