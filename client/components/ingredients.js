@@ -6,7 +6,7 @@ import React from 'react'
 export const Ingredients = props => {
   return (
     <div id="ingredients" className="ingrMain">
-      <h1 className="ingrHeader">Ingredients That Work</h1>
+      <h2 className="ingrHeader">Ingredients That Work</h2>
       <img src="/images/line.png" width="100%" />
       <div className="ingrdContainer">
         <div className="ingrSection">
@@ -18,7 +18,7 @@ export const Ingredients = props => {
             />
           </div>
           <div className="ingrTextCont">
-            <h2 className="ingrHeader">Organic Hemp Extract</h2>
+            <h6 className="ingrHeader">Organic Hemp Extract</h6>
             <p className="smallerP ingrContent">
               Safe non-intoxicating broad-spectrum hemp extract with CBD to help
               you relax.
@@ -37,7 +37,7 @@ export const Ingredients = props => {
             />
           </div>
           <div className="textLeft ingrTextCont">
-            <h2 className="ingrHeader">L-Theanine from Green Tea Extract</h2>
+            <h6 className="ingrHeader">L-Theanine from Green Tea Extract</h6>
             <p className="smallerP ingrContent">
               Promotes cognitive health, relaxation, healthy sleep and focus.
             </p>
@@ -55,7 +55,7 @@ export const Ingredients = props => {
             />
           </div>
           <div className="ingrTextCont">
-            <h2 className="ingrHeader">Rafuma Leaf Extract</h2>
+            <h6 className="ingrHeader">Rafuma Leaf Extract</h6>
             <p className="smallerP ingrContent">
               Used in China for 100s of years to alleviate occasional stress,
               promote a positive outlook, and improve focus and sleep quality.
@@ -74,7 +74,7 @@ export const Ingredients = props => {
             />
           </div>
           <div className="textLeft ingrTextCont">
-            <h2 className="ingrHeader">Griffonia Seed Extract</h2>
+            <h6 className="ingrHeader">Griffonia Seed Extract</h6>
             <p className="smallerP ingrContent">
               Benefits mood and lowers anxiety.
             </p>
@@ -92,7 +92,7 @@ export const Ingredients = props => {
             />
           </div>
           <div className="ingrTextCont">
-            <h2 className="ingrHeader">L-tryptophan</h2>
+            <h6 className="ingrHeader">L-tryptophan</h6>
             <p className="smallerP ingrContent">
               Aids your body in making serotonin to improve mood and sleep.
             </p>
@@ -110,7 +110,7 @@ export const Ingredients = props => {
             />
           </div>
           <div className="textLeft ingrTextCont">
-            <h2 className="ingrHeader">Gaba</h2>
+            <h6 className="ingrHeader">Gaba</h6>
             <p className="smallerP ingrContent">
               Helps relieve anxiety, benefit mood and reduce symptoms of PMS.
             </p>

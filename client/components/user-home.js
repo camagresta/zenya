@@ -12,7 +12,7 @@ export const UserHome = props => {
       <div id="aboutUs">
         <div className="middleImg">
           <div className="middleContent">
-            <h1>What's Zenya?</h1>
+            <h2>What's Zenya?</h2>
             <p>
               Zenya is a special blend of organic hemp extract with CBD,
               medicinal herbs and mood-enhancing ingredients that help you feel
@@ -25,7 +25,7 @@ export const UserHome = props => {
         </div>
         <div>
           <div className="whyZenya">
-            <h1>Why Zenya?</h1>
+            <h2>Why Zenya?</h2>
             <p>
               Zenya was built for New York City – with the whole world in mind.
               We love New York, but it can be hectic AF. Stress and anxiety
